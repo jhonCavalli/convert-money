@@ -85,7 +85,7 @@ Um projeto prático desenvolvido durante o curso **DevClub**, com o objetivo de 
 
 ## 🖼️ Preview do Projeto
 
-![Preview do Projeto](Projeto%20Pratico/assets/img/Captura%20de%20tela%202025-10-29%20002207.png)
+![Preview do Projeto](./Projeto%20Pratico/assets/img/Captura%20de%20tela%202025-10-29%20002207.png)
 
 > 💡 *Interface limpa, intuitiva e funcional — desenvolvida com foco em usabilidade e boas práticas de front-end.*
 
