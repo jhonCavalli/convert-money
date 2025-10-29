@@ -27,9 +27,9 @@
 
         <label>
                 Conerveter <b>para</b>
-            <select>
-                <option>US$ Dolar (USA)</option>
-                <option>€ Euro (EUR)</option>
+            <select class="valores-moedas">
+                <option value="dolar">US$ Dolar (USA)</option>
+                <option value="euro">€ Euro (EUR)</option>
             </select>
         </label>
 
@@ -40,8 +40,8 @@
 
         <button id ="converter" class="pulse">Converter</button>
 
-        <section class="box-infor">
-            <div>
+        <section>
+            <div class="box-infor">
                 <img src="assets/img/brasil 2.png" alt="logo-moeda-real">
                 <p class="moeda">Real</p>
                 <p class="moeda-valor">R$ 0,00</p>
@@ -50,9 +50,9 @@
            
             <div class="arrow-down">↓</div>
 
-            <div>
-                <img src="assets/img/Dolar.png" alt="logo-moeda-dolar">
-                <p class="moeda">Dolar</p>
+            <div class="box-infor">
+                <img class="moeda-img" src="assets/img/Dolar.png" alt="logo-moeda-dolar">
+                <p class="moeda" id="moeda-name">Dólar Americano</p>
                 <p class="moeda-valor-convertido">UR$ 0,00</p>
             </div>
         </section>
@@ -70,6 +70,8 @@
         <p>Feito com 💜 por JhonCavalli | DevClub</p>
     </footer>
 
+
+    
 </body>
     <script src="script.js"></script>
 </html>
